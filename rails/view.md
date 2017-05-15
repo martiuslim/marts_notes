@@ -64,11 +64,12 @@ To show all `tweets`, we edit `/app/views/tweets/index.html.erb`. Here, `Tweet.a
 
 ## URL Generator Methods
 Link recipe: `<%= link_to text_to_show, code %>`  
-The last 3 paths need a specific `tweetID` such as `tweet = Tweet.find(1)`
-|Action|Code|The URL|
-|------|----|-------|
-|List all tweets|tweets_path|/tweets|
-|New tweet from|new_tweet_path|/tweets/new|
-|Show a tweet|tweet|/tweets/1|
-|Edit a tweet|edit_tweet_path(tweet)|tweets/1/edit|
-|Delete a tweet|tweet, method: :delete|/tweets/1|
+The last 3 paths need a specific `tweetID` such as `tweet = Tweet.find(1)`  
+
+| Action | Code | The URL |
+| ------ | ---- | ------- |
+| List all tweets | tweets_path | /tweets|
+| New tweet from | new_tweet_path | /tweets/new|
+| Show a tweet | tweet | /tweets/1|
+| Edit a tweet | edit_tweet_path(tweet) | tweets/1/edit|
+| Delete a tweet | tweet, method: :delete | /tweets/1|
