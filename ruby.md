@@ -20,9 +20,12 @@ To reverse use `.reverse` and to join the lines back into a paragraph use `.join
 Use `[]` to target and find things or even replace them if necessary e.g. `poem['toast'] = 'honeydew'`.  
 
 ## Hash (dictionary)
+Create recipe: `variable = { key : value }`
 To create an empty hash `books = {}`  or `ratings = Hash.new(0)`.  
 To add a book rating (key-value pair in the hash) use `books["Blockchain Revolution"] = :splendid`.  
 Placing a `:` infront of a word makes it a symbol instead of a String -> cheaper in terms of computer memory.  
+
+Read recipe: `variable[:key]`
 
 ## Blocks 
 Blocks are always attached to methods.  
