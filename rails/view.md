@@ -63,7 +63,7 @@ To show all `tweets`, we edit `/app/views/tweets/index.html.erb`. Here, `Tweet.a
 ```
 
 ## URL Generator Methods
-Link recipe: `<%= link_to text_to_show, code %>  
+Link recipe: `<%= link_to text_to_show, code %>`  
 The last 3 paths need a specific `tweetID` such as `tweet = Tweet.find(1)`
 |Action|Code|The URL|
 |------|----|-------|
