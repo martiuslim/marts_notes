@@ -88,7 +88,7 @@ t.save
 
 or 
 
-t.Tweet.find(2)
+t = Tweet.find(2)
 t.update(
     status: "Can I munch your eyeballs?",
     zombie: "EyeballChomper")
