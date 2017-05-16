@@ -17,9 +17,8 @@ Following the `zombie_twitter` tutorial, our current application directory will 
 
 To show an individual `tweet`, we will look at `/app/views/tweets/show.html.erb` and it will look like the following where we will use the `Tweet` model to fetch a `tweet` with an id of 1.
 ```
-<% tweet = Tweet.find(1) %>
-<h1><%= tweet.status %></h1>
-<p>Posted by <%= tweet.zombie.name %></p>
+<h1><%= @tweet.status %></h1>
+<p>Posted by <%= @tweet.zombie.name %></p>
 ```
 `<% ... %>` tells Rails to evaluate ruby code found within the angular brackets.
 `<%= ... %>` tells Rails to evaluate ruby code and print the result.
