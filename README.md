@@ -1,27 +1,19 @@
 # Mart's Notebook
 
-This is just my repository of notes that I have found useful in the course of my learning.
+This is just my repository of notes that I have consolidated and found useful in the course of my learning. Please feel free to contribute in any way or suggest improvements.
 
-## Markdown
-> Commonly used
-```
-# for headers (H1 - H6)
+- Free learning resources [Link](https://github.com/vhf/free-programming-books#list-of-free-learning-resources-)
+- Free programming books [Link](https://github.com/vhf/free-programming-books/blob/master/free-programming-books.md)
+- Free online courses [Link](https://github.com/vhf/free-programming-books/blob/master/free-courses-en.md)
 
-Single asterisk/underscore *for* _italics_
-Double asterisks/underscores **for** __bold__
-Two tildes ~~for strikethrough~~
+---
 
-1. Ordered Lists
-* Unordered Lists
+## Notes in this repository
+- [Git](./git.md)
+- [Markdown](./markdown.md)
+- [PostgreSQL](./postgresql.md)
+- [Python](./python.md)
+- [Ruby](./ruby.md)
+- [Ruby on Rails](./rails/README.md)
 
-[Inline-style Link](URL)
-
-` for code/ syntax highlighting
-
-> for block highlighting
-```
-
-- [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
-- [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
-- [Writing on GitHub](https://help.github.com/categories/writing-on-github/)
-- [Emoji Cheatsheet](https://www.webpagefx.com/tools/emoji-cheat-sheet/)
+---
