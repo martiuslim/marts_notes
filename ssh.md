@@ -1,5 +1,11 @@
 # SSH
 
+## Setting up multiple SSH Keys
+
+- [Stackoverflow thread on having multiple GitHub accounts and SSH](http://stackoverflow.com/questions/3225862/multiple-github-accounts-ssh-config)
+  - Need to create a config file in `~/.ssh/config`
+  - Set configuration profiles to point to respective `private keys`
+
 ## Using SSH to connect to DigitalOcean droplets [Link](https://www.digitalocean.com/community/tutorials/how-to-use-ssh-keys-with-digitalocean-droplets)
 
 Note: this guide mainly only applies to Mac OS X/ Linux users
