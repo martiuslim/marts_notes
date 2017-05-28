@@ -1,5 +1,9 @@
 # Ruby
 
+## Documentation
+- [Ruby Documentation](https://www.ruby-lang.org/en/documentation/)
+- [Ruby API](http://ruby-doc.org/core)
+
 ## String
 ```
 poem = "My toast has flown from my hand
