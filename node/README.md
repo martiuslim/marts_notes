@@ -1,7 +1,8 @@
-# NodeJS
+# Node.js
 
 ## Essentials
 - [Events](./events.md)
+- [Streams](./streams.md)
 
 ### Documentation
 - [Node Documentation](https://nodejs.org/en/docs/)

@@ -6,14 +6,14 @@ This is just my repository of notes that I have consolidated and found useful in
 - Free programming books [Link](https://github.com/vhf/free-programming-books/blob/master/free-programming-books.md)
 - Free online courses [Link](https://github.com/vhf/free-programming-books/blob/master/free-courses-en.md)
 
----
-
 ## Notes in this repository
+- [Ethereum](./ethereum.md)
 - [Git](./git.md)
+- [Heroku](./heroku.md)
 - [Markdown](./markdown.md)
+- [Node.js](./node/README.md)
 - [PostgreSQL](./postgresql.md)
 - [Python](./python.md)
 - [Ruby](./ruby.md)
 - [Ruby on Rails](./rails/README.md)
-
----
+- [SSH](./ssh.md)
