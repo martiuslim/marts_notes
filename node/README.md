@@ -1,7 +1,9 @@
 # Node.js
 
 ## Essentials
+- [Basics](./basics.md)
 - [Events](./events.md)
+- [Modules](./modules.md)
 - [Streams](./streams.md)
 
 ### Documentation
