@@ -4,6 +4,7 @@
 - Start PostgreSQL `sudo systemctl start postgresql`
 - Restart PostgreSQL `sudo systemctl restart postgresql`
 - Logging into Postgres Super User `sudo su - postgres`
+- Logging into a database `psql -d <db_name> -U <username>`
 - Accessing client authentication configuration file `vim ~/data/pg_hba.conf`
 - Create a user `createuser <user> `
 - Create a database `createdb <db>`
