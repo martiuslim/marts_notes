@@ -16,7 +16,7 @@
 
 ## Solidity [Link](https://solidity.readthedocs.io/en/develop/)
 
-- [GitHub Repo](https://github.com/ethereum/solidity)
-- [Solidity Reference](http://solidity.readthedocs.io/en/latest/solidity-in-depth.html)
+- [Remix - Solidity Web IDE](https://ethereum.github.io/browser-solidity/)
+- [Solidity Documentation](http://solidity.readthedocs.io/en/latest/solidity-in-depth.html)
+- [Solidity GitHub](https://github.com/ethereum/solidity)
 - [Code Examples](http://solidity.readthedocs.io/en/latest/solidity-by-example.html)
-- [Solidity in your browser](https://ethereum.github.io/browser-solidity/)

@@ -1,5 +1,20 @@
 # Linux
-General notes for Linux distros such as Fedora and Ubuntu
+General notes for Linux distros, in particular `Fedora`.
+
+### Useful Applications
+- [Visual Studio Code for Fedora](https://code.visualstudio.com/docs/setup/linux#_rhel-fedora-and-centos-based-distributions)
+- [Telegram Desktop](https://desktop.telegram.org/)
+- [Slack for Linux](https://slack.com/downloads/linux)
+- [Spotify for Fedora](https://fedoraproject.org/wiki/Spotify)
+
+## Installing & Updating Packages using DNF [Link](http://dnf.readthedocs.io/en/latest/)
+In Fedora, `dnf` has been the default package manager since version 22. It stands for `dandified yum` or the next generation version of the `Yellowdog Updater, Modified` or `yum`. 
+
+The documentation for `dnf` commands can be [found here](http://dnf.readthedocs.io/en/latest/command_ref.html). Some of the common commands are `install`, `check-update`, `upgrade`.
+
+To install packages while automatically bypassing the prompts, you may use the `-y` or `--assumeyes` to answer yes to all questions. For example, `dnf install -y <package>`.
+
+
 
 ## Bash Scripting
 Scripts are basically just a series of commands in a plain text file and are useful for automating tasks so that you don't have to type them manually. In short, what's important is that you can put anything you can run normally on the command line into a script and it will do the exact same thing and vice versa.
@@ -20,6 +35,14 @@ In order to run this script, we need to ensure that the script file has the `exe
 One example is `700` where the owner has full read, write and execute permissions for the file. You can then run `chmod 700 hello-script`.
 
 You may now run your script with `./hello-script`.
+
+## Time Synchronization when dual-booting
+You may run into issues with the system clock when dual-booting Linux with Windows (either from a separate partition or off a flash-drive). For example, your system clock may be correct on your Linux side, but when you boot back into Windows, you may find that your system clock is not synchronized and may be behind time. 
+
+This is a common issue and a great answer can be [found here](https://askubuntu.com/questions/169376/clock-time-is-off-on-dual-boot). 
+
+Solution: open a terminal (on your Linux) and execute the following command
+`timedatectl set-local-rtc 1`.
 
 ## scp (Secure Copy) [Link](https://linux.die.net/man/1/scp)
 You may use `scp` to securely transfer files between hosts. It uses the same authentication and provides the same security as `ssh`.

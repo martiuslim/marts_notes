@@ -10,6 +10,7 @@ This is just my repository of notes that I have consolidated and found useful in
 - [Ethereum](./ethereum.md)
 - [Git](./git.md)
 - [Heroku](./heroku.md)
+- [Linux](./linux.md)
 - [Markdown](./markdown.md)
 - [Node.js](./node/README.md)
 - [PostgreSQL](./postgresql.md)
