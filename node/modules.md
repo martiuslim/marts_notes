@@ -67,8 +67,8 @@ var options = {
   host: 'localhost', port: 8080, path: '/', method: 'POST'
 }
 
-var request = http.request(options, function(response) {
-  response.on('data', function(data) {
+var request = http.request(options, (response) => {
+  response.on('data', (data) => {
     console.log(data);
   });
 });
@@ -87,8 +87,8 @@ var makeRequest = function(message) {
     host: 'localhost', port: 8080, path: '/', method: 'POST'
   }
 
-  var request = http.request(options, function(response) {
-    response.on('data', function(data) {
+  var request = http.request(options, (response) => {
+    response.on('data', (data) => {
       console.log(data);
     });
   });

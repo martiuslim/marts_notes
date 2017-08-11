@@ -5,20 +5,16 @@ Node uses an `event-driven`, `non-blocking` I/O model that makes it lightweight 
 To illustrate the difference between `blocking` and `non-blocking` code, let's say that we want to read a file and print its contents. Here is what it will look like in pseudo-code.
 
 ### Blocking 
-```
-1  Read file from Filesystem, set equal to "contents"
-2  Print contents
-3  Do something else
-```
+> Read file from Filesystem, set equal to "contents"  
+> Print contents  
+> Do something else
 
 The code here executes the file reading first, followed by the printing of its contents. We cannot print the contents until the program finishes reading all the contents in the file. Hence, this is `blocking` code because the program has to wait for Line 1 to complete before being able to continue to print the contents and do something else.
 
 ### Non-Blocking
-```
-1  Read file from Filesystem
-2    whenever you're complete, print the contents
-3  Do something else
-```
+> Read file from Filesystem  
+> Whenever you're complete, print the contents  
+> Do something else
 
 Here, Line 2 is known as a `callback`. Or in plain English, we're going to `callback` that function when the file is done reading. When you execute this program, it will run Line 1, then Line 3. Line 2 is run when Line 1 is done running anytime in the future, indicating `non-blocking` code because the program does not have to wait for the file to be read before doing something else.
 
@@ -26,29 +22,29 @@ Below we'll see the Node code snippets of the pseudo-code above.
 
 ### Blocking code
 ```
-1  var contents = fs.readFileSync('/etc/hosts');
-2  console.log(contents);
-3  console.log('Doing something else');
+var contents = fs.readFileSync('/etc/hosts');
+console.log(contents);
+console.log('Doing something else');
 ```
 
 ### Non-Blocking code
 ```
-1  fs.readFile('/etc/hosts', function(err, contents) {
-     console.log(contents);
-   });
-2  console.log('Doing something else');
+fs.readFile('/etc/hosts', (err, contents) => {
+    console.log(contents);
+});
+console.log('Doing something else');
 ```
 
 ## Callback Alternate Syntax
 ```
-fs.readFile('/etc/hosts', function(err, contents) {
-     console.log(contents);
+fs.readFile('/etc/hosts', (err, contents) => {
+  console.log(contents);
 });
 ```
 Is also  the same as 
 ```
 var callback = function(err, contents) {
-    console.log(contents);
+  console.log(contents);
 }
 fs.readFile('/etc/hosts', callback);
 ```

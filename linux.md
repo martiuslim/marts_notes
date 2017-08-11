@@ -14,8 +14,6 @@ The documentation for `dnf` commands can be [found here](http://dnf.readthedocs.
 
 To install packages while automatically bypassing the prompts, you may use the `-y` or `--assumeyes` to answer yes to all questions. For example, `dnf install -y <package>`.
 
-
-
 ## Bash Scripting
 Scripts are basically just a series of commands in a plain text file and are useful for automating tasks so that you don't have to type them manually. In short, what's important is that you can put anything you can run normally on the command line into a script and it will do the exact same thing and vice versa.
 
@@ -52,19 +50,15 @@ Some useful flags:
 - `-v`: to show the full debug logs as scp will be silent otherwise.
 
 ### Transferring files to remote host (Uploading)
-The general syntax is as follows:
-
+The general syntax is as follows:  
 `scp -i <path_to_ssh_keyfile> <path_to_file_to_upload> <user>@<host>:<directory_to_upload>`
 
-Example:
-
+Example:  
 `scp -i ~/.ssh/privatekey file-to-upload root@ip-addr:home`
 
 ### Transferring files from remote host (Downloading)
-The general syntax is as follows:
-
+The general syntax is as follows:  
 `scp -i <path_to_ssh_keyfile> <user>@<host>:<path_to_file_to_download> <directory_to_download>`
 
-Example:
-
+Example:  
 `scp -i ~/.ssh/privatekey root@ip-addr:home/file-to-download home`
