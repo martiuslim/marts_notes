@@ -1,8 +1,6 @@
 # Mart's Notebook
 
-This is my repository of notes that I have consolidated and found useful in the course of my learning. Usually they are solutions to problems that I encounter. 
-
-Please feel free to contribute in any way or suggest improvements.
+This is my repository of notes that I have consolidated and found useful in the course of my learning. They are usually solutions to problems that I encounter. 
 
 - Free learning resources [Link](https://github.com/vhf/free-programming-books#list-of-free-learning-resources-)
 - Free programming books [Link](https://github.com/vhf/free-programming-books/blob/master/free-programming-books.md)
@@ -21,4 +19,5 @@ Please feel free to contribute in any way or suggest improvements.
 - [Python](./python.md)
 - [Ruby](./ruby.md)
 - [Ruby on Rails](../../tree/master/rails)
+- [Spark](spark.md)
 - [SSH](./ssh.md)
